@@ -22,6 +22,7 @@ runs:
     
     - name: Install dependencies
       run: pip install pydash
+      shell: bash
 
     - name: Extend JSON and write to env
       id: resolve-step
