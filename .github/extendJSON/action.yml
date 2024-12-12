@@ -20,9 +20,6 @@ runs:
       shell: bash
       id: resolve-step
       run: |
-        extended=$(python3 ${{ github.action_path }}/resolve.py ${{
-        inputs.url_to_json }})
-
+        extended=$(python3 ${{ github.action_path }}/resolve.py ${{ inputs.url_to_json }})
         echo $extended
-
         echo "RAW_JSON="$extended"" >> $GITHUB_OUTPUT
