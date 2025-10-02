@@ -1,6 +1,6 @@
 group:
   - files:
-      - source: ./tier1/
+      - source: ./tier1/{{cookiecutter.project_slug}}/
         dest: ./
     repos: |
       natalialuzuriaga/repo-scaffolder
