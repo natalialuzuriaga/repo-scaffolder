@@ -16,7 +16,7 @@ group:
         dest: ./.github/workflows
       - source: ./tier1/{{cookiecutter.project_slug}}/.github/codejson/hooks
         dest: ./.github/codejson/hooks
-        - source: ./tier1/{{cookiecutter.project_slug}}/.github/codejson/{{cookiecutter.project_name}}
+      - source: ./tier1/{{cookiecutter.project_slug}}/.github/codejson/{{cookiecutter.project_name}}
         dest: ./.github/codejson/{{cookiecutter.project_name}}
       - source: ./tier1/{{cookiecutter.project_slug}}/.github/cookiecutter.json
         dest: ./.github/codejson/cookiecutter.json
