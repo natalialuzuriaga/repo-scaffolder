@@ -1,6 +1,6 @@
 natalialuzuriaga/tier1:
   - source: ./tier1/{{cookiecutter.project_slug}}/LICENSE
-  dest: ./LICENSE
+    dest: ./LICENSE
   - source: ./tier1/{{cookiecutter.project_slug}}/README.md
     dest: ./README.md
   - source: ./tier1/{{cookiecutter.project_slug}}/COMMUNITY.md
