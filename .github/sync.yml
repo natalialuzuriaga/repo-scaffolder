@@ -2,6 +2,8 @@ group:
   - files:
       - source: ./tier1/{{cookiecutter.project_slug}}/
         dest: ./
+      - source: ./tier1/{{cookiecutter.project_slug}}/.github/cookiecutter.json
+        dest: ./.github/codejson/cookiecutter.json
     repos: |
       natalialuzuriaga/repo-scaffolder
       natalialuzuriaga/tier1
