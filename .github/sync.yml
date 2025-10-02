@@ -1,7 +1,23 @@
 group:
   - files:
-      - source: ./tier1/{{cookiecutter.project_slug}}/
-        dest: ./
+      - source: ./tier1/{{cookiecutter.project_slug}}/LICENSE
+        dest: ./LICENSE
+      - source: ./tier1/{{cookiecutter.project_slug}}/README.md
+        dest: ./README.md
+      - source: ./tier1/{{cookiecutter.project_slug}}/COMMUNITY.md
+        dest: ./COMMUNITY.md
+      - source: ./tier1/{{cookiecutter.project_slug}}/SECURITY.md
+        dest: ./SECURITY.md
+      - source: ./tier1/{{cookiecutter.project_slug}}/CONTRIBUTING.md
+        dest: ./CONTRIBUTING.md
+      - source: ./tier1/{{cookiecutter.project_slug}}/.github/ISSUE_TEMPLATE
+        dest: ./.github/ISSUE_TEMPLATE
+      - source: ./tier1/{{cookiecutter.project_slug}}/.github/workflows
+        dest: ./.github/workflows
+      - source: ./tier1/{{cookiecutter.project_slug}}/.github/codejson/hooks
+        dest: ./.github/codejson/hooks
+        - source: ./tier1/{{cookiecutter.project_slug}}/.github/codejson/{{cookiecutter.project_name}}
+        dest: ./.github/codejson/{{cookiecutter.project_name}}
       - source: ./tier1/{{cookiecutter.project_slug}}/.github/cookiecutter.json
         dest: ./.github/codejson/cookiecutter.json
     repos: |
