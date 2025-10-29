@@ -1,6 +1,6 @@
 # repo-scaffolder
 
-Templates and commandline tools for creating repositories for United States Federal open source projects. Created by the CMS OSPO!
+Templates and commandline tools for creating repositories for United States Federal open source projects. Created by the CMS OSPO
 
 ## About the Project
 
