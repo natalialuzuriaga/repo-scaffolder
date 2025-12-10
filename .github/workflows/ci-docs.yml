@@ -18,5 +18,5 @@ jobs:
       # This is the GitHub Actions-friendly port of the linter used in the Makefile.
       - uses: tcort/github-action-markdown-link-check@1.1.0
         with:
-          use-quiet-mode: "yes" # errors only.
+          use-quiet-mode: "no" # errors only.
           config-file: ".github/workflows/markdownlint-config.json"
