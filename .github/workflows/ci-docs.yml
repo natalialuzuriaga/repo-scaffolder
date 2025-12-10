@@ -1,10 +1,6 @@
 name: CI Documentation Checks
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - '**/*.md'
   pull_request:
     paths:
       - '**/*.md'
@@ -18,5 +14,4 @@ jobs:
       # This is the GitHub Actions-friendly port of the linter used in the Makefile.
       - uses: tcort/github-action-markdown-link-check@1.1.0
         with:
-          use-quiet-mode: "no" # errors only.
-          use-verbose-mode: "yes"
+          use-quiet-mode: "yes" # errors only.
