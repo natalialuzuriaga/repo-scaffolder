@@ -1,10 +1,6 @@
 name: CI Documentation Checks
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - '**/*.md'
   pull_request:
     paths:
       - '**/*.md'
