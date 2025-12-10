@@ -7,7 +7,7 @@
 This is a review process to approve CMS-developed software to be released open source.
 If you would like your repository to be released, please complete the following steps.
 
-[Prerequisites](#prerequisites)
+[Prerequisites](#prerequisit)
 
 [State the Benefits of Open Sourcing the Project](#state-the-benefits-of-open-sourcing-the-project)
 
