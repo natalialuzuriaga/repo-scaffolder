@@ -1,6 +1,6 @@
 # repo-scaffolder
 
-Templates and commandline tools for creating repositories for US Federal open source projects
+Commandline tools for creating repositories for US Federal open source projects
 
 ## About the Project
 
