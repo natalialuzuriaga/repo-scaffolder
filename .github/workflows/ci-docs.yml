@@ -19,3 +19,4 @@ jobs:
       - uses: tcort/github-action-markdown-link-check@1.1.0
         with:
           use-quiet-mode: "no" # errors only.
+          use-verbose-mode: "yes"
