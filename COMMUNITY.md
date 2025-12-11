@@ -203,7 +203,7 @@ These principles guide our data, product, and process decisions, architecture, a
 
 All community members are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Information on contributing to this repository is available in our [Contributing file](CONTRIBUTING.md).
+Information on contributing to this repository is available in our [Contributing file](CONTRIBU).
 
 When participating in ospo-guide open source community conversations and spaces, we ask individuals to follow the following guidelines:
 
