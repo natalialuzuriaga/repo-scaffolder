@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.1.0](https://github.com/DSACMS/repo-scaffolder/tree/v1.1.0) (2025-11-13)
+## [v1.1.0](https://github.com/DSACMS/repo-scaffolder/tree/v1.1.0) (2025-11-11)
 
 [Full Changelog](https://github.com/DSACMS/repo-scaffolder/compare/v1.0.0...v1.1.0)
 
