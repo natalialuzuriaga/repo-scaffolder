@@ -12,7 +12,7 @@ jobs:
         run: |
           echo "Listing files in the workspace directory: ${{ github.workspace }}"
           ls -a  # 'ls -a' lists all files, including hidden ones (like .github)
-      - uses: tcort/github-action-markdown-link-check@1.1.0
+      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
         with:
           use-verbose-mode: "yes"
           config-file: ".github/workflows/mlc_config.json"
