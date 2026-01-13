@@ -1,4 +1,4 @@
-# CMS OSPO Outbound Review Checklist
+# CMSOSPO Outbound Review Checklist
 
 ## Tier 2: Close Collaboration
 

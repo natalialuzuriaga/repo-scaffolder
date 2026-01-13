@@ -1,6 +1,6 @@
 # repo-scaffolder
 
-Templates and commandline tools for creating repositories for US Federal open source projects
+Commandline tools for creating repositories for US Federal open source projects
 
 ## About the Project
 
@@ -50,7 +50,7 @@ A list of core team members responsible for the code and documentation in this r
     - [GitHub Actions](#updating-repository-using-github-action-workflows)
     - [Upstream file changes](#Updating-projects-with-new-repo-scaffolder-upstream-file-changes)
 
-[Additional Documentation](./docs)
+[Additional Documentation](./doc)
 
 ##### Maturity Models
 
