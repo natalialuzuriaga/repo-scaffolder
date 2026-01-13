@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: List files in the repository
+        run: |
+          echo "Listing files in the workspace directory: ${{ github.workspace }}"
+          ls -a  # 'ls -a' lists all files, including hidden ones (like .github)
       - uses: tcort/github-action-markdown-link-check@1.1.0
         with:
           use-verbose-mode: "yes"
