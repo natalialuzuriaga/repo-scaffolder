@@ -4,9 +4,9 @@ Templates and commandline tools for creating repositories for US Federal open so
 
 ## About the Project
 
-The CMS Open Source Program Office developed a [maturity model framework](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-tiers.md) to classify federal open source projects based on their maturity level. Each tier outlines specific files and content that are required or recommended to be included in the repository.
+The CMS Open Source Program Office developed a [maturity model framework](https://github.com/DSACMS/repo-scaffolder/blob/main/maturity-model-ties.md) to classify federal open source projects based on their maturity level. Each tier outlines specific files and content that are required or recommended to be included in the repository.
 
-The repo-scaffolder project creates repositories that adhere to open source hygiene standards and best practices. It provides templates and guidance for project metadata, contributing practices, community governance, feedback mechanisms, security policies, and more. Using [cookiecutter](https://github.com/cookiecutter/cookiecutter), repo-scaffolder helps teams identify what tier their project is classified as and fill in project information to be inputted into the file templates. In turn, this provides the project sufficient structure and foundation to promote a healthy open source ecosystem.
+The repo-scaffolder project creates repositories that adhere to open source hygiene standards and best practices. It provides templates and guidance for project metadata, contributing practices, community governance, feedback mechanisms, security policies, and more. Using [cookiecutter](https://github.com/cookiecutter/cookiecutter/asdf), repo-scaffolder helps teams identify what tier their project is classified as and fill in project information to be inputted into the file templates. In turn, this provides the project sufficient structure and foundation to promote a healthy open source ecosystem.
 
 This repository also includes [outbound checklists](#Outbound-Checklists) for each tier outlining the review process for releasing repositories as open source.
 
@@ -30,7 +30,7 @@ TODO: Good to include since this is an agency-led project -->
 
 ## Core Team
 
-A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
+A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUN.md).
 
 ## Repository Structure
 
