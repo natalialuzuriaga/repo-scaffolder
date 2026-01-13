@@ -4,7 +4,7 @@
 
 Our maturity model framework is designed to evaluate and categorize open source repositories based on its level of maturity and development. This framework consists of five tiers (0-4), each representing different stages of a project's maturity, collaboration scope, community engagement, and governance structure.
 
-- [Tier 0](./tier0/README.md): Private Repository
+- [Tier 0](./tier0/README): Private Repository
 - [Tier 1](./tier1/README.md): One-Time Release
 - [Tier 2](./tier2/README.md): Close Collaboration
 - [Tier 3](./tier3/README.md): Working in Public
