@@ -107,7 +107,7 @@ python tier-determiner.py
 Alternatively, the landing page includes a [quiz](https://dsacms.github.io/repo-scaffolder/#maturity-model-tier-quiz) to determine your project's tier.
 
 You can also follow the flowchart below to determine your project's tier.
-![Tier Selection Flowchart](./assets/images/flowchart.png)
+![Tier Selection Flowchart](./assets/images/flowchart.ng)
 
 ### 2. Set up your repository
 
