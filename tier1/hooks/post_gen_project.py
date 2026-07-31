@@ -1,14 +1,17 @@
 import subprocess
 import shutil
 import os
+import re
 
 REPO_NAME = '{{ cookiecutter.project_repo_name }}'
 ORG_NAME = '{{ cookiecutter.project_org }}'
 VISIBILITY = '{{cookiecutter.project_visibility}}'
 DESCRIPTION = '{{cookiecutter.project_description}}'
 CREATE_REPO = '{{cookiecutter.create_repo}}'
-RECEIVE_UPDATES = '{{cookiecutter.receive_updates}}'
+MATURITY_ORG_NAME = '{{cookiecutter.maturity_org_name}}'
+EXTRA_REPO_TOPICS = '{{cookiecutter.extra_repo_topics}}'
 ADD_TEAM = '{{cookiecutter.add_team}}'
+MATURITY_TIER = "tier0"
 
 def createGithubRepo():
     gh_cli_command = [
@@ -22,12 +25,38 @@ def createGithubRepo():
     subprocess.call(gh_cli_command)
     subprocess.call(["git", "push", "--set-upstream", "origin", "main"])
 
-def addTopic():
+def normalize_topic(topic):
+    topic = topic.strip().lower()
+    topic = re.sub(r"[\s_]+", "-", topic)
+    topic = re.sub(r"[^a-z0-9-]", "", topic)
+    topic = re.sub(r"-+", "-", topic)
+
+    return topic.strip("-")
+
+
+def get_repo_topics():
+    maturity_topic = normalize_topic(
+        f"{MATURITY_ORG_NAME}-{MATURITY_TIER}"
+    )
+
+    topics = [maturity_topic]
+
+    for topic in EXTRA_REPO_TOPICS.split(","):
+        normalized_topic = normalize_topic(topic)
+
+        if normalized_topic and normalized_topic not in topics:
+            topics.append(normalized_topic)
+
+    return topics
+
+def addTopics():
+    topics = get_repo_topics()
     gh_cli_command = [
         "gh", "repo", "edit",
         f"{ORG_NAME}/{REPO_NAME}",
-        "--add-topic=dsacms-tier1",
     ]
+    for topic in topics:
+        gh_cli_command.append(f"--add-topic={topic}")
     subprocess.call(gh_cli_command)
 
 def addTeam():
@@ -96,9 +125,8 @@ def main():
     
     if CREATE_REPO == "True":
         createGithubRepo()
-
-    if RECEIVE_UPDATES == "True":
-        addTopic()
+        addTopics()
+        
     
     print(f"\n****************************************")
     print(f"\n✅ {REPO_NAME} has successfully been created!\n")
