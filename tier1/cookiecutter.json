@@ -12,7 +12,7 @@
   "__prompts__": {
     "create_repo": "Would you like to create a repo on github.com?",
     "maturity_org_name": "Organization name for maturity model topic name (press Enter to use the default: cmsoss-tier1).",
-    "extra_repo_topics": "Enter additional GitHub topics (comma-separated, optional). Example: content-management,dashboard,regulations-and-directives,CodingItForward",
+    "extra_repo_topics": "Enter additional GitHub topics (comma-separated, optional). Example: content-management,dashboard,regulations-and-directives,CodingItForward,Medicare,Medicaid,CMCS,CCSQ",
     "add_team": "Would you like to add project team members to COMMUNITY.md?"
   },
   "_copy_without_render": [".github/codejson"]
