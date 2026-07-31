@@ -11,7 +11,7 @@ CREATE_REPO = '{{cookiecutter.create_repo}}'
 MATURITY_ORG_NAME = '{{cookiecutter.maturity_org_name}}'
 EXTRA_REPO_TOPICS = '{{cookiecutter.extra_repo_topics}}'
 ADD_TEAM = '{{cookiecutter.add_team}}'
-MATURITY_TIER = "tier0"
+MATURITY_TIER = "tier2"
 
 def createGithubRepo():
     gh_cli_command = [
