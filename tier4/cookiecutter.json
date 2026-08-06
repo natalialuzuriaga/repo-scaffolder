@@ -7,14 +7,12 @@
   "code_owners": "",
   "project_visibility": ["public", "internal", "private"],
   "create_repo": [true, false],
-  "maturity_org_name": "cmsoss",
   "extra_repo_topics": "",
   "add_team": [true, false],
   "add_maintainer": [true, false],
   "__prompts__": {
     "code_owners": "Would you like to add a CODEOWNERS.md to get notified on repository updates? If so, please provide the usernames separated by commas.",
     "create_repo": "Would you like to create a repo on github.com?",
-    "maturity_org_name": "Organization name for maturity model topic name (press Enter to use the default: cmsoss-tier4).",
     "extra_repo_topics": "Enter additional GitHub topics (comma-separated, optional). Example: content-management,dashboard,regulations-and-directives,CodingItForward,Medicare,Medicaid,CMCS,CCSQ",
     "add_team": "Would you like to add project team members to COMMUNITY.md?",
     "add_maintainer": "Would you like to add maintainers, approvers, and/or reviewers to COMMUNITY.md?"

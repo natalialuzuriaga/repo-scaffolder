@@ -8,7 +8,6 @@ ORG_NAME = '{{ cookiecutter.project_org }}'
 VISIBILITY = '{{cookiecutter.project_visibility}}'
 DESCRIPTION = '{{cookiecutter.project_description}}'
 CREATE_REPO = '{{cookiecutter.create_repo}}'
-MATURITY_ORG_NAME = '{{cookiecutter.maturity_org_name}}'
 EXTRA_REPO_TOPICS = '{{cookiecutter.extra_repo_topics}}'
 ADD_TEAM = '{{cookiecutter.add_team}}'
 MATURITY_TIER = "tier3"
@@ -36,11 +35,11 @@ def normalize_topic(topic):
 
 
 def get_repo_topics():
-    maturity_topic = normalize_topic(
-        f"{MATURITY_ORG_NAME}-{MATURITY_TIER}"
+    org_topic = normalize_topic(
+        f"{ORG_NAME}-{MATURITY_TIER}"
     )
 
-    topics = [maturity_topic]
+    topics = [org_topic]
 
     for topic in EXTRA_REPO_TOPICS.split(","):
         normalized_topic = normalize_topic(topic)
