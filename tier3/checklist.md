@@ -375,15 +375,20 @@ The [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-
 
 **Using the repo-scaffolder cookiecutter CLI**
 
-1. In the `.github` directory, run the command:
+1. Install cookiecutter
+```
+python3 -m pip install --user cookiecutter
+```
+
+2. In the `.github` directory, run the command:
 
 ```
 cookiecutter . –directory=codejson
 ```
 
-2. Answer various questions about your project.
+3. Answer various questions about your project.
 
-3. A code.json file will be generated with your responses.
+4. A code.json file will be generated with your responses.
 
 As you continue development in this repository, it is important to keep this file up-to-date. Our [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) can assist with updating this file.
 
