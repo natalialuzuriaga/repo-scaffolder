@@ -232,8 +232,8 @@
               </div>
               <p style="margin-top: 0.75rem;">OR</p>
               <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="check-existing-repo" type="checkbox">
-                <label class="usa-checkbox__label" for="check-existing-repo">
+                <input class="usa-checkbox__input" id="check-existing-repo-repolinter" type="checkbox">
+                <label class="usa-checkbox__label" for="check-existing-repo-repolinter">
                   Add files to an existing repository using
                   <a href="https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#add-files-to-an-existing-repository-using-repolinter"
                     target="_blank" rel="noopener noreferrer">
@@ -242,8 +242,8 @@
               </div>
               <p style="margin-top: 0.75rem;">OR</p>
               <div class="usa-checkbox">
-                <input class="usa-checkbox__input" id="check-existing-repo" type="checkbox">
-                <label class="usa-checkbox__label" for="check-existing-repo">
+                <input class="usa-checkbox__input" id="check-existing-repo-cookiecutter" type="checkbox">
+                <label class="usa-checkbox__label" for="check-existing-repo-cookiecutter">
                   Add files to an existing repository by running
                   <a href="https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#add-files-to-an-existing-repository-using-repo-scaffolder"
                     target="_blank" rel="noopener noreferrer">
@@ -341,8 +341,8 @@
                   </label>
                 </div>
                 <div class="usa-checkbox">
-                  <input class="usa-checkbox__input" id="check-metadata" type="checkbox">
-                  <label class="usa-checkbox__label" for="check-metadata">
+                  <input class="usa-checkbox__input" id="check-metadata-outbound" type="checkbox">
+                  <label class="usa-checkbox__label" for="check-metadata-outbound">
                     <a href="https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/checklist.md#review-project-metadata"
                       target="_blank" rel="noopener noreferrer">
                       Ensure repository metadata exist in a code.json file and are complete
@@ -694,9 +694,11 @@
           <br>
 
           <h3>Get started!</h3>
-          <p>Create a repository using our cookiecutter CLI by running the command below, replacing X with the tier
+          <p>Create a repository using our cookiecutter CLI by running the commands below, replacing X with the tier
             number: </p>
           <div class="code">
+            <pre>python3 -m pip install --user cookiecutter</pre>
+            <br>
             <pre>cookiecutter https://github.com/DSACMS/repo-scaffolder --directory=tierX</pre>
           </div>
           <br>
