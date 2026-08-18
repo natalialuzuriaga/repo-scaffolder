@@ -2,7 +2,7 @@
 
 ## What is a Tier 0 Project?
 
-A **Tier 0** project is an **experimental or historical** repository that is **private** and generally used by a single developer or a small group. It typically includes working projects, example scripts, or early prototypes that serve as a foundation for future work or experimentation. This type of project is not shared publicly and often remains private due to its preliminary or incomplete nature.
+A **Tier 0** project is an **experimental** repository that is **private** and generally used by a single developer or a small group. It typically includes working projects, example scripts, or early prototypes that serve as a foundation for future work or experimentation. This type of project is not shared publicly and often remains private due to its preliminary or incomplete nature.
 
 The main purpose of a Tier 0 project is to provide a space for initial development, exploration, and testing. These repositories generally lack formal documentation or governance structures that are typical of more mature projects.
 
