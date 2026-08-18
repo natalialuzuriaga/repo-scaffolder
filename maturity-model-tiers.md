@@ -27,7 +27,7 @@ Different projects have varying needs based on their scope, team size, and commu
     <tr>
       <td>Tier 0</td>
       <td>Private Repository</td>
-      <td>Experimental/Historical</td>
+      <td>Experimental</td>
       <td>Project is private, usually with a single developer. Typically working projects, example code, and early prototypes.</td>
     </tr>
     <tr>
