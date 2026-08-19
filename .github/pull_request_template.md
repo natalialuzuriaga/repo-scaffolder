@@ -23,7 +23,8 @@ thought of being the motivation for your change.
 Describe the modifications you've done.
 
 ## AI Usage
-- [ ] Generated AI was used in this contribution
+
+- [ ] Generative AI was used in this contribution
 
 If checked, please provide an explanation on how AI was used in the development of this pull request:
 
@@ -34,14 +35,14 @@ If checked, please provide an explanation on how AI was used in the development 
   - [ ] Debugging
   - [ ] Testing
   - [ ] Refactoring
-  - [ ] Other: 
+  - [ ] Other:
 - Scope of usage: _Which files, functions, or sections were AI-assisted_
-- AI System used: 
+- AI System used:
   - [ ] ChatGPT
   - [ ] Claude
   - [ ] Gemini
   - [ ] GitHub Copilot
-- Level of modification: 
+- Level of modification:
   - [ ] As-is
   - [ ] Modified
   - [ ] Used as inspiration
@@ -54,12 +55,12 @@ section is unnecessary because it is self-explanatory based on the solution.
 
 Some important notes regarding the summary line:
 
-* Describe what was done; not the result 
-* Use the active voice 
-* Use the present tense 
-* Capitalize properly 
-* Do not end in a period — this is a title/subject 
-* Prefix the subject with its scope
+- Describe what was done; not the result
+- Use the active voice
+- Use the present tense
+- Capitalize properly
+- Do not end in a period — this is a title/subject
+- Prefix the subject with its scope
 
 ## Test Plan
 
