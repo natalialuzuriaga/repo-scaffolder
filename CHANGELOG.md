@@ -1,5 +1,29 @@
 # Changelog
 
+## [v1.3.0](https://github.com/DSACMS/repo-scaffolder/tree/v1.3.0) (2026-08-21)
+
+[Full Changelog](https://github.com/DSACMS/repo-scaffolder/compare/v1.2.1...v1.3.0)
+
+**Implemented enhancements:**
+
+- Repo Topics: Adding repo topics to cookiecutter during repository creation [\#135](https://github.com/DSACMS/repo-scaffolder/issues/135)
+
+**Closed issues:**
+
+- Docs: Missing Information [\#231](https://github.com/DSACMS/repo-scaffolder/issues/231)
+
+**Merged pull requests:**
+
+- Release: Merging Dev to Main [\#404](https://github.com/DSACMS/repo-scaffolder/pull/404) ([natalialuzuriaga](https://github.com/natalialuzuriaga))
+- Templates: Fix typo in PR templates [\#402](https://github.com/DSACMS/repo-scaffolder/pull/402) ([natalialuzuriaga](https://github.com/natalialuzuriaga))
+- Outbound Checklists and Docs: Add instructions for installing dependencies [\#400](https://github.com/DSACMS/repo-scaffolder/pull/400) ([natalialuzuriaga](https://github.com/natalialuzuriaga))
+- Added AI usage section to tier 2, 3, and 4 PR templates [\#398](https://github.com/DSACMS/repo-scaffolder/pull/398) ([kmsheikh](https://github.com/kmsheikh))
+- Update code.json [\#397](https://github.com/DSACMS/repo-scaffolder/pull/397) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Added AI usage section to PR template [\#396](https://github.com/DSACMS/repo-scaffolder/pull/396) ([kmsheikh](https://github.com/kmsheikh))
+-  Add GitHub repository topic prompts and automatic topic assignment` [\#395](https://github.com/DSACMS/repo-scaffolder/pull/395) ([isaac-rtc](https://github.com/isaac-rtc))
+- Adding AI Usage Section to CONTRIBUTING.md [\#394](https://github.com/DSACMS/repo-scaffolder/pull/394) ([sachin-panayil](https://github.com/sachin-panayil))
+- Update maturity-model-tiers.md [\#384](https://github.com/DSACMS/repo-scaffolder/pull/384) ([decause-gov](https://github.com/decause-gov))
+
 ## [v1.2.1](https://github.com/DSACMS/repo-scaffolder/tree/v1.2.1) (2026-01-27)
 
 [Full Changelog](https://github.com/DSACMS/repo-scaffolder/compare/v1.2.0...v1.2.1)
