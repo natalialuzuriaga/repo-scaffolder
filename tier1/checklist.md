@@ -186,15 +186,21 @@ As part of our repository hygiene requirements, the project must include certain
 
 #### Running repolinter on your repository locally
 
-1. Add [repolinter.json](https://github.com/DSACMS/repo-scaffolder/blob/main/tier1/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json) to the root directory of your project
+1. Install repolinter
 
-2. Run command:
+```
+npm install -g repolinter
+```
+
+2. Add [repolinter.json](https://github.com/DSACMS/repo-scaffolder/blob/main/tier1/%7B%7Bcookiecutter.project_slug%7D%7D/repolinter.json) to the root directory of your project
+
+3. Run command:
 
 ```
 repolinter lint .
 ```
 
-3. The result produces a list of files section existence checks, indicating whether each requirement was met or not.
+4. The result produces a list of files section existence checks, indicating whether each requirement was met or not.
 
 ![repolinter results](../assets/images/repolinter-results.png)
 
@@ -303,15 +309,20 @@ The [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-
 
 **Using the repo-scaffolder cookiecutter CLI**
 
-1. In the `.github` directory, run the command:
+1. Install cookiecutter
+```
+python3 -m pip install --user cookiecutter
+```
+
+2. In the `.github` directory, run the command:
 
 ```
 cookiecutter . –directory=codejson
 ```
 
-2. Answer various questions about your project.
+3. Answer various questions about your project.
 
-3. A code.json file will be generated with your responses.
+4. A code.json file will be generated with your responses.
 
 As you continue development in this repository, it is important to keep this file up-to-date. Our [automated-codejson-generator](https://github.com/DSACMS/automated-codejson-generator) can assist with updating this file.
 
@@ -456,8 +467,6 @@ Be sure to include the following information:
 
 #### Tracking 📈
 
-Add your project to our inventories.
+Add your project to our inventories via code.json.
 
-- [ ] **Add to https://github.com/dsacms/open projects inventory**
-
-- [ ] **Add code.json to repository and sent over a pull request to [code.gov](https://code.gov/)**
+- [ ] **Add a completed code.json file to the repository**
