@@ -17,7 +17,7 @@
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
-  "repositoryURL": "https://github.com/DSACMS/repo-scaffolder",
+  "repositoryURL": "https://github.com/natalialuzuriaga/repo-scaffolder",
   "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
   "homepageURL": "https://dsacms.github.io/repo-scaffolder/",
@@ -25,9 +25,9 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 8122,
+  "laborHours": 8164,
   "reuseFrequency": {
-    "forks": 18,
+    "forks": 0,
     "clones": 0
   },
   "platforms": [
@@ -56,9 +56,9 @@
   "reusedCode": [],
   "partners": [],
   "date": {
-    "created": "2023-10-05T18:06:51Z",
-    "lastModified": "2026-07-31T21:24:06Z",
-    "metadataLastUpdated": "2026-08-01T03:41:33.534Z"
+    "created": "2024-06-05T17:26:27Z",
+    "lastModified": "2026-08-27T18:10:10Z",
+    "metadataLastUpdated": "2026-09-01T04:18:30.690Z"
   },
   "tags": [
     "cmsoss-tier3",
